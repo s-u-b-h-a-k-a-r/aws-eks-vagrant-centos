@@ -96,7 +96,7 @@ aws-eks-centos  |100.10.10.108|CentOS7|2G|2|
 
 <a id="access_dashboard"></a>
 
-## Access Kubernetes Dashboard
+# Access Kubernetes Dashboard
 
 From ***local*** system execute the below commands
 * `$ ssh -L 8001:localhost:8001 root@100.10.10.108` [***password : aws-eks***]
@@ -163,7 +163,7 @@ When the cluster is no longer needed, use the eksctl delete cluster command to r
 
 
 <a id="addons"></a>
-## Add-Ons provided
+# Add-Ons provided
 * `kubectl (1.11.5)`
 * `aws-iam-authenticator`
 * `aws-cli`
@@ -173,7 +173,7 @@ When the cluster is no longer needed, use the eksctl delete cluster command to r
 
 <a id="access"></a>
 
-## Login Vagrant VM
+# Login Vagrant VM
 **The Vagrant VM can be accessed in two ways from your local windows machine**
 
 **vagrant ssh**
@@ -186,7 +186,7 @@ When the cluster is no longer needed, use the eksctl delete cluster command to r
           
 <a id="stop"></a>
 
-## Stop Vagrant VM
+# Stop Vagrant VM
 **Run the below command to stop the Vagrant Box from your local windows machine**
 
 * `$ cd aws-eks-vagrant-centos/provisioning`
@@ -195,7 +195,7 @@ When the cluster is no longer needed, use the eksctl delete cluster command to r
 
 <a id="restart"></a>
 
-## Restart Vagrant VM
+# Restart Vagrant VM
 **Run the below command to restart the Vagrant Box if the vagrant box is stopped from your local windows machine**
 * `$ cd aws-eks-vagrant-centos/provisioning`
 * `$ vagrant up`
@@ -203,7 +203,7 @@ When the cluster is no longer needed, use the eksctl delete cluster command to r
 
 <a id="destroy"></a>
 
-## Destroy Vagrant VM
+# Destroy Vagrant VM
 **Run the below command to delete the Vagrant Box from your local windows machine**
 * `$ cd aws-eks-vagrant-centos/provisioning`
 * `$ vagrant destroy`
@@ -211,7 +211,7 @@ When the cluster is no longer needed, use the eksctl delete cluster command to r
 
 <a id="example"></a>
 
-## Example
+# Example
 Here we will see a simple example creating a **EKS cluster** in **us-east-2** region
 
 Understand the parameters that we are going to authenticate ***AWS***.
