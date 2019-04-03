@@ -1,6 +1,6 @@
 #!/bin/bash
 
-figlet HELM
+figlet helm
 
 export PATH=/usr/local/bin:/home/vagrant/bin:$PATH
 curl https://raw.githubusercontent.com/kubernetes/helm/master/scripts/get > get_helm.sh

@@ -170,6 +170,8 @@ When the cluster is no longer needed, use the eksctl delete cluster command to r
 * `pip`
 * `eksctl` (https://github.com/weaveworks/eksctl)
 * `helm`
+* `terraform` (https://www.terraform.io)
+
 
 <a id="access"></a>
 
