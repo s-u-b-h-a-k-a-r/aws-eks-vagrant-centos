@@ -47,8 +47,8 @@ VM:
 ```
 Open `windows (OR) bash` terminal from your `local windows` machine
 
-* `$ cd aws-eks-vagrant-centos/provisioning` 
 * `$ git clone https://github.com/SubhakarKotta/aws-eks-vagrant-centos.git` 
+* `$ cd aws-eks-vagrant-centos/provisioning` 
 * `$ vagrant up`
 
 <a id="configuration"></a>
