@@ -14,7 +14,8 @@ yum install -y -q git           > /dev/null 2>&1
 yum install -y -q nano          > /dev/null 2>&1
 yum install -y -q wget          > /dev/null 2>&1
 yum install -y -q unzip         > /dev/null 2>&1
-yum install -y -q jq         > /dev/null 2>&1
+yum install -y -q jq            > /dev/null 2>&1
+yum install -y -q zip           > /dev/null 2>&1
 
 
 figlet SSH
